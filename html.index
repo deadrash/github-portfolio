@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rawaha Rasheed, freelance writer and logo designer with over 5 years of experience in content writing, SEO optimization, blog posts, articles, marketing copy, logo design, and brand identity for startups and global brands.">
+    <meta name="keywords" content="freelance writer, content writing, SEO optimization, blog posts, articles, marketing copy, logo design, brand identity, graphic design, storytelling, Rawaha Rasheed">
+    <meta name="author" content="Rawaha Rasheed">
+    <title>Rawaha Rasheed | Freelance Writer & Brand Identity Designer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+            color: #fff;
+            text-align: center;
+            padding: 5rem 2rem;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.3rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        nav {
+            background-color: #1e3a8a;
+            padding: 1rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 1.1rem;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #facc15;
+        }
+
+        section {
+            padding: 4rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            color: #1e3a8a;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .about-content, .contact-content {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .about-content p, .contact-content p {
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+        }
+
+        .skills-grid, .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .skill-card, .portfolio-card {
+            background-color: #fff;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .skill-card:hover, .portfolio-card:hover {
+            transform: translateY(-8px);
+        }
+
+        .skill-card h3, .portfolio-card h3 {
+            font-size: 1.4rem;
+            color: #1e3a8a;
+            margin-bottom: 0.5rem;
+        }
+
+        .portfolio-card img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+        }
+
+        footer {
+            background-color: #1e3a8a;
+            color: #fff;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        footer a {
+            color: #facc15;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            header p {
+                font-size: 1rem;
+            }
+
+            nav ul {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            section {
+                padding: 2rem 1rem;
+            }
+
+            h2 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Rawaha Rasheed</h1>
+        <p>Freelance Writer & Brand Identity Designer Specializing in Content Writing, SEO Optimization, Logo Design, and Storytelling</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <p>With over 5 years of freelancing experience, I am a passionate freelance writer and logo designer, delivering compelling content and bold brand identities for startups, family businesses, and global brands. My writing includes SEO-optimized blog posts, articles, and marketing copy across technology, lifestyle, and business sectors. In design, I craft memorable logos and cohesive brand identities that tell unique stories, blending creativity with strategic market research. I thrive on tight deadlines and complex projects, ensuring high-quality, original work that makes your brand stand out.</p>
+            <p>Previously, I worked as a part-time editor and designer at a local magazine, where I honed my skills in logo design and brand identity creation for various clients.</p>
+        </div>
+    </section>
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3>Content Writing</h3>
+                <p>Crafting engaging blog posts, articles, and marketing copy tailored to your brand’s voice.</p>
+            </div>
+            <div class="skill-card">
+                <h3>SEO Optimization</h3>
+                <p>Optimizing content for search engines to boost visibility while maintaining authenticity.</p>
+            </div>
+            <div class="skill-card">
+                <h3>Logo Design</h3>
+                <p>Designing bold, memorable logos that reflect your brand’s unique identity.</p>
+            </div>
+            <div class="skill-card">
+                <h3>Brand Identity</h3>
+                <p>Creating cohesive brand identities with strategic market research for lasting impact.</p>
+            </div>
+            <div class="skill-card">
+                <h3>Storytelling</h3>
+                <p>Weaving compelling narratives that resonate with audiences and align with brand goals.</p>
+            </div>
+            <div class="skill-card">
+                <h3>Graphic Design</h3>
+                <p>Producing visually striking designs for logos, branding, and marketing materials.</p>
+            </div>
+            <div class="skill-card">
+                <h3>Editing</h3>
+                <p>Polishing content and designs to ensure clarity, coherence, and professional quality.</p>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-card">
+                <h3>Guardians of the Starlight Realm</h3>
+                <p>A fantasy novel about Luna’s journey at Dreamweaver Academy, blending rhythmic magic, adventure, and themes of unity and dreams.</p>
+            </div>
+            <div class="portfolio-card">
+                <h3>Tech Blog Series</h3>
+                <p>SEO-optimized blog posts for tech startups, covering trends and innovations to drive engagement and visibility.</p>
+            </div>
+            <div class="portfolio-card">
+                <h3>Lifestyle Article for Magazine</h3>
+                <p>Wrote and edited a feature article on sustainable living for a local magazine, engaging readers with compelling storytelling.</p>
+            </div>
+            <div class="portfolio-card">
+                <h3>Marketing Copy for E-Commerce</h3>
+                <p>Crafted persuasive product descriptions and promotional copy for an e-commerce brand, boosting conversions.</p>
+            </div>
+            <div class="portfolio-card">
+                <h3>Logo Design for Family Business</h3>
+                <p>Designed a vibrant logo for a family-run bakery, capturing their heritage and modern appeal.</p>
+            </div>
+            <div class="portfolio-card">
+                <h3>Brand Identity for Tech Startup</h3>
+                <p>Created a bold logo and cohesive brand identity for a tech startup, enhancing market presence.</p>
+            </div>
+            <div class="portfolio-card">
+                <h3>Magazine Editorial Design</h3>
+                <p>Designed layouts and logos for a local magazine, blending creativity and functionality for client brands.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-content">
+            <p>Ready to elevate your brand with compelling content or a standout logo? Let’s discuss your project!</p>
+            <p>Email: <a href="mailto:rawaha.rasheed@example.com">rawaha.rasheed@example.com</a></p>
+            <p>Portfolio: <a href="https://rawaharasheed.journoportfolio.com" target="_blank">rawaharasheed.journoportfolio.com</a></p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 Rawaha Rasheed. All rights reserved. | <a href="https://rawaharasheed.journoportfolio.com" target="_blank">View Portfolio</a></p>
+    </footer>
+</body>
+</html>
